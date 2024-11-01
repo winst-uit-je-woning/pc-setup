@@ -14,7 +14,7 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
 # }
 
 # Install programs
-choco install vscode docker-desktop postman postgresql -y
+choco install vscode docker-desktop postman -y
 
 # Install PostgreSQL with default password
 choco install postgresql --params '/Password:postgres' --params-global -y
