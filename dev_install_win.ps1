@@ -14,7 +14,7 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
 # }
 
 # Install programs
-choco install vscode docker-desktop postman postgresql pgadmin4 -y
+choco install vscode docker-desktop postman postgresql -y
 
 # Google Chrome is updated a lot. The installation will pull the newest version of Google's servers which will contain a different version than Chcolatey often. Thus, we ignore the checksum whici is likely to differ from Chocolatey's.
 choco install googlechrome --ignore-checksums -y
